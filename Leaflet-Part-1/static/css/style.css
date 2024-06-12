@@ -1,0 +1,27 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#map,
+body,
+html {
+  height: 100%;
+}
+/* Custom legend style */
+.legend {
+  background-color: green
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-family: Arial, sans-serif;
+  line-height: 18px;
+}
+
+/* Style for the color squares in the legend */
+.legend i {
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+  float: left;
+}
